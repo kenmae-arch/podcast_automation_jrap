@@ -72,6 +72,36 @@ _GATSU = {1: "いちがつ", 2: "にがつ", 3: "さんがつ", 4: "しがつ", 
           10: "じゅうがつ", 11: "じゅういちがつ", 12: "じゅうにがつ"}
 _NIN = {1: "ひとり", 2: "ふたり", 4: "よにん"}
 
+_SEN = {1: "せん", 2: "にせん", 3: "さんぜん", 4: "よんせん", 5: "ごせん",
+        6: "ろくせん", 7: "ななせん", 8: "はっせん", 9: "きゅうせん"}
+
+
+def _year_kana(n: int) -> str:
+    """西暦(4桁)を読み仮名にする。2026→にせんにじゅうろく、1994→せんきゅうひゃくきゅうじゅうよん。"""
+    thousands, rest = divmod(n, 1000)
+    out = _SEN.get(thousands, "")
+    if rest:
+        out += _num_kana(rest)
+    return out
+
+
+# 「2026年8月9日」のような西暦入りの日付。区切りなしの一気読み
+# (にせんにじゅうろくねんはちがつここのか)は平坦で不自然に聞こえるため、
+# 話し言葉の「◯年の、◯月◯日」に変換する(2026-08-11 聴き比べで決定)。
+_DATE_RE = re.compile(r"(?<![0-9０-９])([0-9]{4})年(?:([0-9]{1,2})月(?:([0-9]{1,2})日)?)?")
+
+
+def _date_reading(m: re.Match) -> str:
+    out = _year_kana(int(m.group(1))) + "ねん"
+    if m.group(2):
+        month = int(m.group(2))
+        out += "の、" + (_GATSU.get(month) or (_num_kana(month) + "がつ"))
+        if m.group(3):
+            day = int(m.group(3))
+            out += _NICHI.get(day) or (_num_kana(day) + "にち")
+    return out
+
+
 _COUNTER_RE = re.compile(r"(?<![0-9０-９])([0-9]{1,3})(分|秒|日|月|人|階|本|杯)")
 
 
@@ -97,7 +127,12 @@ def _counter_reading(m: re.Match) -> str:
 
 
 def apply_counter_readings(text: str) -> str:
-    """「53分」「21日」のような数字+助数詞を、数値から計算した読みに置換する。"""
+    """数字+助数詞を、数値から計算した読みに置換する。
+
+    西暦入りの日付(「2026年8月9日」)を先に「◯年の、◯月◯日」形式へ変換し、
+    残った「53分」「21日」などを個別の助数詞読みに置換する。
+    """
+    text = _DATE_RE.sub(_date_reading, text)
     return _COUNTER_RE.sub(_counter_reading, text)
 
 

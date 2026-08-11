@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>日本語ラップ アルバム全曲解説</title>
+    <link>https://kenmae-arch.github.io/podcast_automation_jrap/feed.xml</link>
+    <description>日本語ラップの名盤を1曲ずつ深掘り解説するポッドキャスト。制作背景・リリックのテーマ・音楽的な仕掛けを、1話1曲でじっくり語ります。</description>
+    <atom:link href="https://kenmae-arch.github.io/podcast_automation_jrap/feed.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg</url>
+      <title>日本語ラップ アルバム全曲解説</title>
+      <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
+    </image>
+    <language>ja</language>
+    <lastBuildDate>Tue, 11 Aug 2026 15:45:34 +0000</lastBuildDate>
+    <itunes:author>アルバム全曲解説</itunes:author>
+    <itunes:category text="Music"/>
+    <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>アルバム全曲解説</itunes:name>
+      <itunes:email>podcast@example.com</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>Mall Boyz『Mall Tape』全曲解説 #1 上昇の合図『Higher』</title>
+      <description>日本語ラップの名盤を1曲ずつ深掘りする新ポッドキャスト。第1弾はMall Boyz(Tohji &amp; gummyboy)が2018年12月26日にリリースした1st EP『Mall Tape』。初回は幕開けの代表曲『Higher』を取り上げます。2026年11月17日の東京ドーム公演「Tohji Last Live "TOKYO MALL"」の発表で再び熱い注目が集まるいま、公演名の原点であるこのEPを頭から聴き直すシリーズ。ショッピングモールというコンセプトの発明、歌とラップの境界を溶かすフック、レイヴ的な祝祭感を解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_001_2026-08-11.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_001_2026-08-11.mp3" length="10919645" type="audio/mpeg"/>
+      <pubDate>Tue, 11 Aug 2026 15:45:34 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/malltape.jpg"/>
+    </item>
+  </channel>
+</rss>

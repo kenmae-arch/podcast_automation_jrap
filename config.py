@@ -68,7 +68,7 @@ PODCAST_DESCRIPTION = _env(
     "制作背景・リリックのテーマ・音楽的な仕掛けを、1話1曲でじっくり語ります。",
 )
 PODCAST_AUTHOR = _env("PODCAST_AUTHOR", "アルバム全曲解説")
-PODCAST_EMAIL = _env("PODCAST_EMAIL", "podcast@example.com")
+PODCAST_EMAIL = _env("PODCAST_EMAIL", "k-maekawa-9jt@eagle.sophia.ac.jp")
 PODCAST_LANGUAGE = _env("PODCAST_LANGUAGE", "ja")
 PODCAST_CATEGORY = _env("PODCAST_CATEGORY", "Music")
 # 番組カバー画像(docs/ 直下)のファイル名。

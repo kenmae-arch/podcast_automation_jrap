@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 11 Aug 2026 17:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 14:21:57 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>ZORN『新小岩』全曲解説 #1 地元を名乗るということ『Shinkoiwa』</title>
+      <description>新シリーズ開始!第2弾はZORNが2020年10月28日にサプライズリリースした9枚目のアルバム『新小岩』。地名をそのままタイトルに掲げた、日本語ラップ屈指の「地元アルバム」を、全13曲・1曲ずつ深掘りしていきます。初回は幕開けの1曲『Shinkoiwa』。前シリーズのMall Boyz(地元を持たない世代)とは正反対の、ど直球の地元レペゼンはなぜ強いのか。全曲プロデュースのBACHLOGIC(『花と雨』の人!)、独立後初作という背景、武道館への物語まで解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_005_2026-08-12.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_005_2026-08-12.mp3" length="10104207" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 14:21:57 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/shinkoiwa.jpg"/>
+    </item>
     <item>
       <title>Mall Boyz『Mall Tape』全曲解説 #4(最終回) 世代をつなぐ祝福『Cool running』</title>
       <description>Mall Boyz(Tohji &amp; gummyboy)の1st EP『Mall Tape』(2018年12月26日)を1曲ずつ深掘りするシリーズ、いよいよ最終回。4曲目『Cool running』は、日本語ラップのレジェンド・SEEDAを客演に迎えた1曲。2017年のオーディション番組での出会いから客演が実現するまでの世代の物語、モールから惑星へと一気に広がるスケール、そして「良い旅を」という祝福のタイトルが意味するもの。ゼロ年代の金字塔『花と雨』のSEEDAと、東京ドームへ向かうTohji——ふたつの時代がこの曲でつながります。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

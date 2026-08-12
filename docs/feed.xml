@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 14:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 14:26:13 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>ZORN『新小岩』全曲解説 #2 ふたつの旗が交差する『Rep feat. MACCHO』</title>
+      <description>ZORN『新小岩』(2020年)を1曲ずつ深掘りするシリーズ第2回。今回は2曲目『Rep』。客演は横浜のレジェンド、OZROSAURUSのMACCHO。新小岩と横浜、下町と港町、ふたつの土地の旗が1曲の上で交差する、レペゼンそのものをテーマにした名曲です。アルバムに先駆けて2019年12月に配信されると大きな反響を呼び、2026年2月16日の日本武道館ツーマン「Family Day」まで続く縁の始まりになりました。レペゼンとは土地への責任である——前シリーズのMall Boyz論と対をなす、日本語ラップの伝統の核心に迫ります。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_006_2026-08-12.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_006_2026-08-12.mp3" length="10067426" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 14:26:13 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/shinkoiwa.jpg"/>
+    </item>
     <item>
       <title>ZORN『新小岩』全曲解説 #1 地元を名乗るということ『Shinkoiwa』</title>
       <description>新シリーズ開始!第2弾はZORNが2020年10月28日にサプライズリリースした9枚目のアルバム『新小岩』。地名をそのままタイトルに掲げた、日本語ラップ屈指の「地元アルバム」を、全13曲・1曲ずつ深掘りしていきます。初回は幕開けの1曲『Shinkoiwa』。前シリーズのMall Boyz(地元を持たない世代)とは正反対の、ど直球の地元レペゼンはなぜ強いのか。全曲プロデュースのBACHLOGIC(『花と雨』の人!)、独立後初作という背景、武道館への物語まで解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

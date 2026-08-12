@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 14:26:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 14:30:28 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>ZORN『新小岩』全曲解説 #3 土手と夕焼けの詩学『Memory Lane』</title>
+      <description>ZORN『新小岩』(2020年)を1曲ずつ深掘りするシリーズ第3回。今回は3曲目『Memory Lane』。土手、川辺、夏の夜、幼なじみ——派手なことはなにも起きないのに、なぜか胸に迫る「記憶の小道」の曲です。名乗り(Shinkoiwa)と誓い(Rep)に続くこの位置に、なぜ思い出の曲が置かれたのか。固有の地名が誰の記憶にもつながっていく普遍性、前シリーズ『mallin'』との対比、日常を宝物に変えるZORNの視線を解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_007_2026-08-12.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_007_2026-08-12.mp3" length="10491655" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 14:30:28 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/shinkoiwa.jpg"/>
+    </item>
     <item>
       <title>ZORN『新小岩』全曲解説 #2 ふたつの旗が交差する『Rep feat. MACCHO』</title>
       <description>ZORN『新小岩』(2020年)を1曲ずつ深掘りするシリーズ第2回。今回は2曲目『Rep』。客演は横浜のレジェンド、OZROSAURUSのMACCHO。新小岩と横浜、下町と港町、ふたつの土地の旗が1曲の上で交差する、レペゼンそのものをテーマにした名曲です。アルバムに先駆けて2019年12月に配信されると大きな反響を呼び、2026年2月16日の日本武道館ツーマン「Family Day」まで続く縁の始まりになりました。レペゼンとは土地への責任である——前シリーズのMall Boyz論と対をなす、日本語ラップの伝統の核心に迫ります。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 13 Aug 2026 07:02:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 07:06:24 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>ZORN『新小岩』全曲解説 #5 三つの人生が転がり続ける『Rollin' feat. AKLO, NORIKIYO』</title>
+      <description>ZORN『新小岩』(2020年)を1曲ずつ深掘りするシリーズ第5回。今回は5曲目『Rollin'』。アルバムで初めて客演がふたり同時に登場する曲で、迎えるのは日本とメキシコにルーツを持つバイリンガルの名手AKLOと、相模原の重鎮NORIKIYO。下町・新小岩、相模原、国境をまたぐルーツ——三者三様の場所から来た3人が、「転がり続ける」というヒップホップの根本テーマの上で合流します。AKLOとの縁は2026年11月13日の東京ガーデンシアター公演「A2Z 2026」まで続く現在進行形。客演の呼び方から見えるアルバム設計論も解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_009_2026-08-13.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_009_2026-08-13.mp3" length="10388001" type="audio/mpeg"/>
+      <pubDate>Thu, 13 Aug 2026 07:06:24 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/shinkoiwa.jpg"/>
+    </item>
     <item>
       <title>ZORN『新小岩』全曲解説 #4 旅立ちの第一声『Don't Look Back』</title>
       <description>ZORN『新小岩』(2020年)を1曲ずつ深掘りするシリーズ第4回。今回は4曲目『Don't Look Back』。記憶の曲『Memory Lane』の直後に「振り返るな」を置く曲順の妙——実はこの曲、2019年10月31日に配信された、昭和レコード脱退後の第一声となるシングルでした。育ててくれた場所への感謝と、独立という旅立ちの決意。忘れないことと、振り返らないことは、矛盾しない。マックの前もコンビニの前も忘れない男が、それでも前だけを向く理由を解説します。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

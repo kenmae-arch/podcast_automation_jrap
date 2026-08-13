@@ -96,4 +96,4 @@
 | 2 | #2 ふたつの旗が交差する『Rep feat. MACCHO』 | episode_006_2026-08-12.mp3 |
 | 3 | #3 土手と夕焼けの詩学『Memory Lane』 | episode_007_2026-08-12.mp3 |
 | 4 | #4 旅立ちの第一声『Don't Look Back』 | episode_008_2026-08-13_v2.mp3(「昭和育ち」解釈の改稿でv2再生成) |
-| 5 | #5 三つの人生が転がり続ける『Rollin' feat. AKLO, NORIKIYO』 | episode_009_2026-08-13_v2.mp3(「人選(じんせん)」の読み事故でv2再生成) |
+| 5 | #5 三つの人生が転がり続ける『Rollin' feat. AKLO, NORIKIYO』 | episode_009_2026-08-13_v2.mp3(「人選(じんせん)」「A2Z(えーとぅーずぃー)」の読み事故でv2再生成) |

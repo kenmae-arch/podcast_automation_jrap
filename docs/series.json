@@ -1,0 +1,40 @@
+{
+  "_comment": "シリーズ(アルバム)のメタデータ。CURRICULUM.md が原典で、サイト表示用にここへ転記する。公開話数は episodes.json から自動計算するのでここには書かない(art をキーに突合する)。新シリーズを始めるときは、このファイルに1件追加し docs/series/<slug>/index.html を複製して差し替える。",
+  "series": [
+    {
+      "slug": "shinkoiwa",
+      "number": "02",
+      "artist": "ZORN",
+      "album": "新小岩",
+      "year": 2020,
+      "total_tracks": 13,
+      "status": "running",
+      "art": "art/shinkoiwa.jpg",
+      "art_alt": "『新小岩』シリーズアートワーク。夕焼けの新小岩駅前通り商店街のアーケードと、高架を走る黄色い総武線",
+      "summary": "地元・新小岩を名乗ることから始まる、生活と地元の物語を1曲ずつ読み解く。",
+      "lead": "2020年発表、ZORNの4thアルバム。生まれ育った新小岩の地名をそのままタイトルに掲げ、家族・仕事・地元の友人といった生活の手触りを、13曲かけて描き切った一枚。客演にMACCHO、AKLO、NORIKIYO、ANARCHY、Kvi Baba、KREVA、鋼田テフロンを迎え、日本語ラップの縦の系譜と横のつながりが交差する。",
+      "note": "各回は、その曲が『新小岩』というアルバムの中で果たしている役割を軸に構成しています。"
+    },
+    {
+      "slug": "mall-tape",
+      "number": "01",
+      "artist": "Mall Boyz",
+      "album": "Mall Tape",
+      "year": 2018,
+      "total_tracks": 4,
+      "status": "completed",
+      "art": "art/malltape.jpg",
+      "art_alt": "『Mall Tape』シリーズアートワーク。夜のショッピングモールの吹き抜けを、エスカレーターがガラス天井の光へ昇っていく図案",
+      "summary": "TohjiとgummyboyによるMall Boyzの1st EPを、1曲目『Higher』から順に解説。",
+      "lead": "2018年12月26日リリース、TohjiとgummyboyによるユニットMall Boyzの1st EP。ふたりの共通の原風景であるショッピングモールをコンセプトに、全4曲・約10分という短さで新世代の空気を決定づけた作品。2026年11月17日の東京ドーム公演「Tohji Last Live \"TOKYO MALL\"」の発表を受けて、その原点をあらためて頭から聴き直したシリーズです。",
+      "note": "個別トラックの制作クレジットは公開情報が乏しいため、裏付けの取れた範囲でのみ言及しています。"
+    }
+  ],
+  "upcoming": [
+    { "label": "Tohji のソロ作(『angel』ほか)", "note": "第1弾からの自然な continuation" },
+    { "label": "SEEDA『花と雨』", "note": "『Mall Tape』#4 に客演。00年代の金字塔" },
+    { "label": "KGDR(キングギドラ)『空からの力』", "note": "90年代・日本語ラップの原点側" },
+    { "label": "KOHH『DIRT』", "note": "2010年代・Tohji以前の「日本語の壊し方」" },
+    { "label": "BAD HOP『Mobb Life』", "note": "同世代・川崎。地元レペゼンの対極" }
+  ]
+}

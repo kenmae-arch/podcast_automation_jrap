@@ -4,6 +4,11 @@
 
 DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中身を担います。矛盾したときは本ファイル(事実)を優先してください。事実の創作は禁止です。
 
+> **状態: 実装済み**(`docs/` 配下)。当初は1ページ構成の想定でしたが、HOME / SERIES / SERIES詳細 /
+> EPISODES / ABOUT / 404 の複数ページで実装しています(§5 参照)。
+> 画面に出る話数・日付・エピソードは `docs/episodes.json`、シリーズ情報は `docs/series.json` から
+> 生成しており、**HTMLに数字を直書きしていません**(静的な初期値はJS無効時の保険としてのみ置き、JSが実データで上書きします)。
+
 ---
 
 ## 0. メタ情報
@@ -17,13 +22,15 @@ DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中�
 
 ## 1. グローバルナビ
 
-<!-- 1ページ構成のため、ページ内アンカー+外部リンクで構成 -->
+全ページ共通。モバイル(639px以下)では波形アイコンのボタンから全画面メニューを開きます。
 
-- HOME
-- SERIES(#series シリーズ一覧)
-- EPISODES(#episodes)
-- ABOUT(#about)
-- RSS(feed.xml へ外部リンク)
+| ラベル | 遷移先 |
+| --- | --- |
+| HOME | `/` |
+| SERIES | `/series/` |
+| EPISODES | `/episodes/` |
+| ABOUT | `/about/` |
+| RSS | `/feed.xml` |
 
 ---
 
@@ -34,8 +41,9 @@ DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中�
 - **サブコピー**: 日本語ラップの名盤を、1話1曲で深掘りする長尺解説ポッドキャスト。制作背景・リリックのテーマ・音楽的な仕掛けを、10〜15分でじっくり。
 - 番組名: 日本語ラップ アルバム全曲解説(英語キッカー: J-RAP DEEP DIVE)
 - **連載中の看板(ヒーロー内に必須)**: 連載中: ZORN『新小岩』全13話 — #11まで公開中
-  - CTA: 最新話を聴く → #episodes
-  - サブCTA: RSSで購読 → feed.xml
+  (この一文は `series.json` + `episodes.json` から組み立てるので、話数が増えれば自動で更新される)
+  - CTA: 最新話を聴く → #episodes ... **ヒーローのボタンはこれ1つだけ**
+  - RSS導線はグローバルナビ・モバイルメニュー・フッター・購読セクションに置き、ヒーローには置かない
 
 ---
 
@@ -60,7 +68,7 @@ DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中�
 
 | No | シリーズ名 | 本文 | 画像 / リンク先 |
 | --- | --- | --- | --- |
-| 02 | ZORN『新小岩』(2020) | 全13話中11話公開。地元・新小岩を名乗ることから始まる、生活と地元の物語を1曲ずつ読み解く。 | art/shinkoiwa.jpg(alt: 『新小岩』シリーズアートワーク。夕焼けの商店街アーケードと総武線) |
+| 02 | ZORN『新小岩』(2020) | 地元・新小岩を名乗ることから始まる、生活と地元の物語を1曲ずつ読み解く。(「全13話中◯話公開」は episodes.json から算出) | art/shinkoiwa.jpg(alt: 『新小岩』シリーズアートワーク。夕焼けの商店街アーケードと総武線) |
 
 ---
 
@@ -71,7 +79,7 @@ DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中�
 
 | No | シリーズ名 | 本文 | 画像 / リンク先 |
 | --- | --- | --- | --- |
-| 01 | Mall Boyz『Mall Tape』(2018) | 全4話・完結。TohjiとgummyboyによるMall Boyzの1st EPを、1曲目『Higher』から順に解説。 | art/malltape.jpg(alt: 『Mall Tape』シリーズアートワーク。夜のモールの吹き抜けとエスカレーター) |
+| 01 | Mall Boyz『Mall Tape』(2018) | TohjiとgummyboyによるMall Boyzの1st EPを、1曲目『Higher』から順に解説。全4話・完結。 | art/malltape.jpg(alt: 『Mall Tape』シリーズアートワーク。夜のモールの吹き抜けとエスカレーター) |
 
 ---
 
@@ -106,3 +114,35 @@ DESIGN.md(見た目の仕様)と対になり、CONTENTS.md(この文書)が中�
 - **コピーライト**: © kenmae
 
 ---
+
+## 9. サイト構成(実装)
+
+GitHub Pages の静的サイト(vanilla HTML/CSS/JS)。実装済みのページは以下。
+
+| パス | ファイル | 内容 |
+| --- | --- | --- |
+| `/` | `docs/index.html` | ヒーロー / シリーズの棚(連載中・完結)/ 最新6話 / 番組について / 購読 |
+| `/series/` | `docs/series/index.html` | 連載中・完結のシリーズ一覧 + 今後の候補 |
+| `/series/shinkoiwa/` | `docs/series/shinkoiwa/index.html` | ZORN『新小岩』の全曲解説一覧 |
+| `/series/mall-tape/` | `docs/series/mall-tape/index.html` | Mall Boyz『Mall Tape』の全曲解説一覧 |
+| `/episodes/` | `docs/episodes/index.html` | 全エピソード(シリーズごとに曲順で) |
+| `/about/` | `docs/about/index.html` | 編成・歌詞の扱い・制作方針 |
+| (存在しないURL) | `docs/404.html` | 404 |
+
+共通アセットは `docs/site-assets/`(`site.css` / `site.js` / `series-page.js`)。
+
+エピソード個別ページは作っていません。一覧の各行を `<details>` で開くと要旨と音声プレーヤーが出ます。
+共有用に `#<シリーズslug>-<話数>`(例 `#shinkoiwa-03`)のアンカーがあり、その回を開いた状態で表示します。
+音声は `preload="none"` で、開いたときに初めて読み込みます。
+
+### 新しいシリーズを始めるとき
+
+1. `docs/art/<album>.jpg`(3000px四方)を置く
+2. `docs/series.json` の `series` に1件足す(slug / number / artist / album / year / total_tracks / status / art / art_alt / summary / lead / note)
+3. `docs/series/<slug>/` を既存フォルダから複製し、`data-series-slug` と静的な meta 情報(title / description / canonical / og:image と初期表示テキスト)を差し替える
+4. `docs/sitemap.xml` に1行足す
+
+公開話数・進捗バー・カウンターは `episodes.json` から自動計算されるので、どこにも書き足しません。
+シリーズとエピソードの突合は `episodes.json` の `image` と `series.json` の `art` が一致するかで行っています。
+**台本に `"image": "art/<album>.jpg"` を必ず入れてください。** 入れ忘れるとそのエピソードはどのシリーズにも属さず、
+シリーズページと `/episodes/` に出ません(HOME の最新一覧には出ます)。

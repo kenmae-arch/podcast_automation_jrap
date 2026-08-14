@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 新しいシリーズページを追加したら、ここにも1行足すこと -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/episodes/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/series/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/series/shinkoiwa/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/series/mall-tape/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://kenmae-arch.github.io/podcast_automation_jrap/about/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+</urlset>

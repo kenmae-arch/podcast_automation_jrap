@@ -38,9 +38,42 @@
 | `scripts/pending.json` | 次に音声化する台本(処理後 `scripts/published/` へアーカイブ) |
 | `docs/` | GitHub Pages 配信ディレクトリ(`feed.xml` / `audio/` / `cover-v2.jpg` / `art/`) |
 | `docs/art/` | シリーズ(アルバム)ごとのエピソード・アートワーク |
+| `docs/series.json` | シリーズ(アルバム)のメタデータ。サイトの表示に使う(原典は `CURRICULUM.md`) |
+| `docs/site-assets/` | 公式サイトの共通アセット(`site.css` / `site.js` / `series-page.js`) |
+| `design/` | サイトのデザイン仕様(`DESIGN.md` / `CONTENTS.md`)|
 | `tools/check_reading.py` | 読み事故の検出リンター(音声化前のゲート) |
 | `tools/make_art.py` | カバー/シリーズ別アートワークの生成(`python3 tools/make_art.py`) |
 | `CURRICULUM.md` | シリーズごとの進捗管理 |
+
+## 公式サイト(GitHub Pages)
+
+`docs/` をそのまま GitHub Pages で配信している。ビルド工程は無く、vanilla の HTML/CSS/JS。
+
+| パス | 内容 |
+|---|---|
+| `/` | ヒーロー / シリーズの棚 / 最新6話 / 番組について / 購読 |
+| `/series/` | シリーズ一覧(連載中・完結・今後の候補) |
+| `/series/<slug>/` | そのアルバムの全曲解説一覧 |
+| `/episodes/` | 全エピソード(シリーズごとに曲順) |
+| `/about/` | 編成・歌詞の扱い・制作方針 |
+
+トンマナは紙白 × 墨のモノクロ・エディトリアル(見出しは明朝)。設計の根拠と数値は `design/DESIGN.md`、
+掲載する事実と文言は `design/CONTENTS.md` にある。**色や余白を変えるときは
+`docs/site-assets/site.css` の `:root` と `design/DESIGN.md` の両方を直すこと。**
+
+画面に出る話数・日付・エピソードは `docs/episodes.json`(パイプラインが生成)から読んでいるので、
+`python main.py` で1話配信すればサイトにも自動で反映される。**HTMLに話数を書き足す必要はない。**
+
+### 新しいシリーズを始めるとき
+
+1. `docs/art/<album>.jpg`(3000px四方)を置く
+2. `docs/series.json` の `series` に1件足す
+3. `docs/series/<slug>/` を既存フォルダから複製し、`data-series-slug` と `<head>` の meta 情報を差し替える
+4. `docs/sitemap.xml` に1行足す
+
+> ⚠️ シリーズとエピソードは `episodes.json` の `image` と `series.json` の `art` が一致するかで
+> 突合している。台本 `scripts/pending.json` に `"image": "art/<album>.jpg"` を入れ忘れると、その回は
+> シリーズページに出ない(`/episodes/` の「そのほかのエピソード」には出るので、気づいたら台本側を直す)。
 
 ## セットアップ
 

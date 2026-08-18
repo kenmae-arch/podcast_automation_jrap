@@ -1,0 +1,14 @@
+# デザイン確認用のプレビュー配信設定。
+#
+# 本番の配信先は GitHub Pages(docs/ をそのまま配信)で、こちらはあくまで
+# 作業中の見た目を確認するための一時的なプレビュー環境。
+# ビルド工程は無く、docs/ を静的配信するだけ。
+
+[build]
+  publish = "docs"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # プレビューを検索結果に載せない(本番は GitHub Pages 側)
+    X-Robots-Tag = "noindex"

@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 07 Sep 2026 22:55:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 23:01:16 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>KOHH『梔子』全曲解説 #3 機種名が歌になるとき『iPhone 5』</title>
+      <description>KOHHのファーストアルバム『梔子』(2015年)を1曲ずつ深掘りするシリーズ第3回。今回は3曲目『iPhone 5』——携帯電話の機種名が、そのまま曲のタイトルです。初期の代表曲のひとつとして紹介されてきたこの曲を通して、ブランド名を歌い続けてきたヒップホップの伝統、日記のように書くというKOHHの作詞法、そして「古びた機種名」がいま逆に生み出している時代の刻印について考えます。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_039_2026-09-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_039_2026-09-07.mp3" length="10364595" type="audio/mpeg"/>
+      <pubDate>Mon, 07 Sep 2026 23:01:16 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/kuchinashi.jpg"/>
+    </item>
     <item>
       <title>KOHH『梔子』全曲解説 #2 どこにいる、と尋ねる歌『Where You At』</title>
       <description>KOHHのファーストアルバム『梔子』(2015年)を1曲ずつ深掘りするシリーズ第2回。今回は2曲目『Where You At』——どこにいる、というたったひと言の問いかけです。ミュージックビデオも作られたこの曲を通して、ヒップホップにおける「場所を尋ねる」ことの重み、王子・北区という彼の立ち位置、そして地元を背負うということの三つの形(Mall Boyz・ZORN・KANDYTOWNとの比較)を考えます。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

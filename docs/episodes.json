@@ -421,5 +421,14 @@
     "published": "2026-09-17T08:35:18.011134+00:00",
     "guid": "https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_047_2026-09-17.mp3",
     "image": "art/kuchinashi.jpg"
+  },
+  {
+    "title": "JJJ『MAKTUB』全曲解説 #1 声を楽器に変える『Synthese Freestyle』",
+    "description": "新シリーズ第5弾がスタート。取り上げるのはJJJの3枚目のアルバム『MAKTUB』(2023年)。川崎が生んだトラックメイカーであり、ラッパーであり、DJでもあった人が、生前に完成させた最後の作品です。初回は1曲目『Synthese Freestyle』——2022年12月に作られ、自分の声にエフェクトをかけて楽器として鳴らすという異例の方法で組まれたビート。MAKTUBがアラビア語で「それは書かれている」を意味すること、Fla$hBackSという原点、そしてこのアルバムが抱えることになった二重の喪失について。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。",
+    "audio_file": "episode_048_2026-10-07.mp3",
+    "size_bytes": 11985859,
+    "published": "2026-10-07T20:38:04.925992+00:00",
+    "guid": "https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_048_2026-10-07.mp3",
+    "image": "art/maktub.jpg"
   }
 ]

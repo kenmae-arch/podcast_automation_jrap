@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 17 Sep 2026 08:35:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 20:38:04 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>JJJ『MAKTUB』全曲解説 #1 声を楽器に変える『Synthese Freestyle』</title>
+      <description>新シリーズ第5弾がスタート。取り上げるのはJJJの3枚目のアルバム『MAKTUB』(2023年)。川崎が生んだトラックメイカーであり、ラッパーであり、DJでもあった人が、生前に完成させた最後の作品です。初回は1曲目『Synthese Freestyle』——2022年12月に作られ、自分の声にエフェクトをかけて楽器として鳴らすという異例の方法で組まれたビート。MAKTUBがアラビア語で「それは書かれている」を意味すること、Fla$hBackSという原点、そしてこのアルバムが抱えることになった二重の喪失について。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_048_2026-10-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_048_2026-10-07.mp3" length="11985859" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 20:38:04 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/maktub.jpg"/>
+    </item>
     <item>
       <title>KOHH『梔子』全曲解説 #11(最終回) ごめんで終わるアルバム『泣かせてごめん』</title>
       <description>KOHHのファーストアルバム『梔子』(2015年)を1曲ずつ深掘りしてきたシリーズ、ついに最終回。11曲目『泣かせてごめん』——夢を追うことと、誰かを安心させること。その両方は大事なのに、両立できなかった人の謝罪です。7曲目『Real Love』が「ありがとう」から始まったことを思い出してください。ありがとうで始まった愛が、ごめんで終わる。「私は幸せ」という花言葉のアルバムが謝罪で閉じる意味と、全11曲の総括。そして次シリーズ——JJJ『MAKTUB』の発表まで。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

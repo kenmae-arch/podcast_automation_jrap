@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 20:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 20:44:36 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>JJJ『MAKTUB』全曲解説 #2 川崎の夜が未来に見える『Cyberpunk』</title>
+      <description>JJJの3枚目のアルバム『MAKTUB』(2023年)を1曲ずつ深掘りするシリーズ第2回。今回は2曲目『Cyberpunk feat. Benjazzy』——アルバムより1年半早い2021年11月にシングルとして発表された曲です。客演のBenjazzyはBAD HOPのメンバーで、JJJと同じ川崎の出身。プロデュースはJJJ自身、ミックスはD.O.I.。サイバーパンクという想像力が、なぜ川崎という街と響き合うのか。そして初期のブーンバップからダークな電子音への転換点としての意味を読み解きます。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_049_2026-10-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_049_2026-10-07.mp3" length="10604504" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 20:44:36 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/maktub.jpg"/>
+    </item>
     <item>
       <title>JJJ『MAKTUB』全曲解説 #1 声を楽器に変える『Synthese Freestyle』</title>
       <description>新シリーズ第5弾がスタート。取り上げるのはJJJの3枚目のアルバム『MAKTUB』(2023年)。川崎が生んだトラックメイカーであり、ラッパーであり、DJでもあった人が、生前に完成させた最後の作品です。初回は1曲目『Synthese Freestyle』——2022年12月に作られ、自分の声にエフェクトをかけて楽器として鳴らすという異例の方法で組まれたビート。MAKTUBがアラビア語で「それは書かれている」を意味すること、Fla$hBackSという原点、そしてこのアルバムが抱えることになった二重の喪失について。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

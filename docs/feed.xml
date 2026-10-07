@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:21:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 21:33:33 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>JJJ『MAKTUB』全曲解説 #5 漢字一文字の重さ『心』</title>
+      <description>JJJの3枚目のアルバム『MAKTUB』(2023年)を1曲ずつ深掘りするシリーズ第5回。今回は5曲目『心 feat. OMSB (Prod by STUTS)』——英語の曲名が並ぶアルバムの中で、ここだけが漢字一文字です。客演のOMSBはJJJと同じ1989年生まれ、ニュージャージー生まれで相模原を拠点とするSIMI LABのMC兼トラックメイカー。プロデュースはSTUTS。作り手として一流の3人が集まった曲であること、そして「心」という日本語が持つ射程について。ミュージックビデオも制作されました。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_052_2026-10-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_052_2026-10-07.mp3" length="10283511" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 21:33:33 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/maktub.jpg"/>
+    </item>
     <item>
       <title>JJJ『MAKTUB』全曲解説 #4 結び目を作らずに繋ぐ『Eye Splice』</title>
       <description>JJJの3枚目のアルバム『MAKTUB』(2023年)を1曲ずつ深掘りするシリーズ第4回。今回は4曲目『Eye Splice』——聞き慣れないこの言葉は、ロープの端に輪を作る編み込みの技術名です。結び目を作らずに繋ぐという、その技術の本質から曲を読み解きます。ビートを手がけたのは長年の友人であるnosh。2020年代のドリルという最新の音を取り入れた一曲でもあり、ブロンクスの新星への言及も紹介されています。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>

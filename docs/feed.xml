@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation_jrap</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 03:34:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:41:03 +0000</lastBuildDate>
     <itunes:author>アルバム全曲解説</itunes:author>
     <itunes:category text="Music"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/cover-v2.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>アルバム全曲解説</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Kohjiya『TIMELESS』全曲解説 #8 これさえあればいい『All I Need』</title>
+      <description>Kohjiyaの初のフルアルバム『TIMELESS』(2026年)を1曲ずつ深掘りするシリーズ第8回。今回は8曲目『All I Need』——作詞はKohjiya、ビートはFuji RoseとKORK。本人の解説や詳しい紹介記事は見つからなかったため、クレジットとタイトル、アルバムの中での位置から読みます。マーヴィン・ゲイとタミー・テレルの1968年の名曲から、メソッド・マンとメアリー・J・ブライジの1995年のヒップホップの古典へと受け継がれてきた「必要なのはそれだけ」という言い回し。見栄を戒めた3曲目、運に賭けた7曲目のあとで、何を「これだけは」と歌うのか。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_072_2026-11-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation_jrap/audio/episode_072_2026-11-07.mp3" length="10056977" type="audio/mpeg"/>
+      <pubDate>Sat, 07 Nov 2026 03:41:03 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation_jrap/art/timeless.jpg"/>
+    </item>
     <item>
       <title>Kohjiya『TIMELESS』全曲解説 #7 チャンピオンから、ルーレットへ『Roulette』</title>
       <description>Kohjiyaの初のフルアルバム『TIMELESS』(2026年)を1曲ずつ深掘りするシリーズ第7回。今回は7曲目『Roulette feat. Kaneee &amp; Yvng Patra』——アルバムと同時に初めて公開された新曲で、紹介文では客演のふたりが「盟友」と呼ばれています。札幌出身のKaneee、新潟出身のYvng Patra、そして長崎のKohjiya。3人は2024年5月、ヒップホップフェス「POP YOURS」のオリジナル曲『Champions』(プロデュースはKM)でもそろって名を連ねていました。王者を名乗った2年前の曲から、運に賭ける遊びの名を持つ曲へ。前回までの第5弾『MAKTUB』(それは書かれている)との対比も交えて読みます。※歌詞の朗読は行わず、背景とテーマの解説をお届けします。</description>
